@@ -9,6 +9,7 @@ function App() {
     <Layout style={{background: 'url(http://www.getmdl.io/assets/demos/transparent.jpg) center / cover'}}>
         <Header transparent title="Title" style={{color: 'white'}}>
             <Navigation>
+                <Link to = "/landingpage"> HomePage</Link>
                 <Link to ="/resume">Resume</Link>
                 <Link to ="/aboutme">About Me</Link>
                 <Link to ="/projects">Projects</Link>
